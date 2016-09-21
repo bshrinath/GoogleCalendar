@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTMOAuth2ViewControllerTouch.h"
+#import "GTLCalendar.h"
 
-@interface FirstViewController : UIViewController
+@class FirstDetailViewController;
 
+@interface FirstViewController : UITableViewController
 
+@property (strong, nonatomic) FirstDetailViewController *detailViewController;
+
+@property (nonatomic, strong) GTLServiceCalendar *service;
+@property (nonatomic, strong) UITextView *output;
 @end
-

@@ -10,12 +10,21 @@
 		101F96311D342F8C0036A28E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F96301D342F8C0036A28E /* main.m */; };
 		101F96341D342F8C0036A28E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F96331D342F8C0036A28E /* AppDelegate.m */; };
 		101F96371D342F8C0036A28E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F96361D342F8C0036A28E /* FirstViewController.m */; };
-		101F963A1D342F8C0036A28E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F96391D342F8C0036A28E /* SecondViewController.m */; };
 		101F963D1D342F8C0036A28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F963B1D342F8C0036A28E /* Main.storyboard */; };
 		101F963F1D342F8D0036A28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101F963E1D342F8D0036A28E /* Assets.xcassets */; };
 		101F96421D342F8D0036A28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F96401D342F8D0036A28E /* LaunchScreen.storyboard */; };
 		101F964D1D342F8D0036A28E /* HW7sbadrinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F964C1D342F8D0036A28E /* HW7sbadrinaTests.m */; };
 		101F96581D342F8D0036A28E /* HW7sbadrinaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F96571D342F8D0036A28E /* HW7sbadrinaUITests.m */; };
+		103D99CF1D369B6B00DC5060 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103D99CE1D369B6B00DC5060 /* FirstDetailViewController.m */; };
+		1050D5451D373490009B86A2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1050D5441D373490009B86A2 /* Social.framework */; };
+		1050D5471D373497009B86A2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1050D5461D373497009B86A2 /* Accounts.framework */; };
+		1050D5491D37349C009B86A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1050D5481D37349C009B86A2 /* MapKit.framework */; };
+		1050D54B1D3734C1009B86A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1050D54A1D3734C1009B86A2 /* SystemConfiguration.framework */; };
+		1050D54D1D3734F5009B86A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1050D54C1D3734F5009B86A2 /* CoreLocation.framework */; };
+		1050D5501D375162009B86A2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1050D54F1D375162009B86A2 /* Reachability.m */; };
+		1050D5551D37C812009B86A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1050D5521D37C812009B86A2 /* SecondViewController.m */; };
+		1050D5561D37C812009B86A2 /* TweetImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1050D5541D37C812009B86A2 /* TweetImageView.m */; };
+		E9D4685C3F69FBFDC29A0CF2 /* libPods-HW7sbadrina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC65F372B6AE1F58A548965 /* libPods-HW7sbadrina.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +51,6 @@
 		101F96331D342F8C0036A28E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		101F96351D342F8C0036A28E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		101F96361D342F8C0036A28E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		101F96381D342F8C0036A28E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		101F96391D342F8C0036A28E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		101F963C1D342F8C0036A28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		101F963E1D342F8D0036A28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101F96411D342F8D0036A28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +61,22 @@
 		101F96531D342F8D0036A28E /* HW7sbadrinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW7sbadrinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101F96571D342F8D0036A28E /* HW7sbadrinaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW7sbadrinaUITests.m; sourceTree = "<group>"; };
 		101F96591D342F8D0036A28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103D99CD1D369B4D00DC5060 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		103D99CE1D369B6B00DC5060 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		1050D5441D373490009B86A2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1050D5461D373497009B86A2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1050D5481D37349C009B86A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1050D54A1D3734C1009B86A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1050D54C1D3734F5009B86A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1050D54E1D375162009B86A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1050D54F1D375162009B86A2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1050D5511D37C812009B86A2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1050D5521D37C812009B86A2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1050D5531D37C812009B86A2 /* TweetImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetImageView.h; sourceTree = "<group>"; };
+		1050D5541D37C812009B86A2 /* TweetImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetImageView.m; sourceTree = "<group>"; };
+		3E41ECAC3888AC132EC954DB /* Pods-HW7sbadrina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW7sbadrina.release.xcconfig"; path = "Pods/Target Support Files/Pods-HW7sbadrina/Pods-HW7sbadrina.release.xcconfig"; sourceTree = "<group>"; };
+		EFC65F372B6AE1F58A548965 /* libPods-HW7sbadrina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HW7sbadrina.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8D3341FAB96AACDAE04533 /* Pods-HW7sbadrina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW7sbadrina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HW7sbadrina/Pods-HW7sbadrina.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1050D54D1D3734F5009B86A2 /* CoreLocation.framework in Frameworks */,
+				1050D54B1D3734C1009B86A2 /* SystemConfiguration.framework in Frameworks */,
+				1050D5491D37349C009B86A2 /* MapKit.framework in Frameworks */,
+				1050D5471D373497009B86A2 /* Accounts.framework in Frameworks */,
+				1050D5451D373490009B86A2 /* Social.framework in Frameworks */,
+				E9D4685C3F69FBFDC29A0CF2 /* libPods-HW7sbadrina.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +117,8 @@
 				101F964B1D342F8D0036A28E /* HW7sbadrinaTests */,
 				101F96561D342F8D0036A28E /* HW7sbadrinaUITests */,
 				101F962D1D342F8C0036A28E /* Products */,
+				1D14A7CC1C6B4EC8A23565C4 /* Pods */,
+				34E020D122EAB2C40211CF97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,11 +137,17 @@
 			children = (
 				101F96321D342F8C0036A28E /* AppDelegate.h */,
 				101F96331D342F8C0036A28E /* AppDelegate.m */,
+				1050D54E1D375162009B86A2 /* Reachability.h */,
+				1050D54F1D375162009B86A2 /* Reachability.m */,
 				101F96351D342F8C0036A28E /* FirstViewController.h */,
 				101F96361D342F8C0036A28E /* FirstViewController.m */,
-				101F96381D342F8C0036A28E /* SecondViewController.h */,
-				101F96391D342F8C0036A28E /* SecondViewController.m */,
+				103D99CD1D369B4D00DC5060 /* FirstDetailViewController.h */,
+				103D99CE1D369B6B00DC5060 /* FirstDetailViewController.m */,
 				101F963B1D342F8C0036A28E /* Main.storyboard */,
+				1050D5511D37C812009B86A2 /* SecondViewController.h */,
+				1050D5521D37C812009B86A2 /* SecondViewController.m */,
+				1050D5531D37C812009B86A2 /* TweetImageView.h */,
+				1050D5541D37C812009B86A2 /* TweetImageView.m */,
 				101F963E1D342F8D0036A28E /* Assets.xcassets */,
 				101F96401D342F8D0036A28E /* LaunchScreen.storyboard */,
 				101F96431D342F8D0036A28E /* Info.plist */,
@@ -145,6 +182,28 @@
 			path = HW7sbadrinaUITests;
 			sourceTree = "<group>";
 		};
+		1D14A7CC1C6B4EC8A23565C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D3341FAB96AACDAE04533 /* Pods-HW7sbadrina.debug.xcconfig */,
+				3E41ECAC3888AC132EC954DB /* Pods-HW7sbadrina.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34E020D122EAB2C40211CF97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1050D54C1D3734F5009B86A2 /* CoreLocation.framework */,
+				1050D54A1D3734C1009B86A2 /* SystemConfiguration.framework */,
+				1050D5481D37349C009B86A2 /* MapKit.framework */,
+				1050D5461D373497009B86A2 /* Accounts.framework */,
+				1050D5441D373490009B86A2 /* Social.framework */,
+				EFC65F372B6AE1F58A548965 /* libPods-HW7sbadrina.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 101F965C1D342F8D0036A28E /* Build configuration list for PBXNativeTarget "HW7sbadrina" */;
 			buildPhases = (
+				4F372ED9C9A76AC119B5F408 /* [CP] Check Pods Manifest.lock */,
 				101F96281D342F8C0036A28E /* Sources */,
 				101F96291D342F8C0036A28E /* Frameworks */,
 				101F962A1D342F8C0036A28E /* Resources */,
+				11979A2E4CBC4B24DC6A7AA6 /* [CP] Embed Pods Frameworks */,
+				FF90E85A78B4E34C3A61DF12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,15 +341,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11979A2E4CBC4B24DC6A7AA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HW7sbadrina/Pods-HW7sbadrina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F372ED9C9A76AC119B5F408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF90E85A78B4E34C3A61DF12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HW7sbadrina/Pods-HW7sbadrina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		101F96281D342F8C0036A28E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101F963A1D342F8C0036A28E /* SecondViewController.m in Sources */,
 				101F96341D342F8C0036A28E /* AppDelegate.m in Sources */,
+				1050D5561D37C812009B86A2 /* TweetImageView.m in Sources */,
 				101F96371D342F8C0036A28E /* FirstViewController.m in Sources */,
+				103D99CF1D369B6B00DC5060 /* FirstDetailViewController.m in Sources */,
+				1050D5501D375162009B86A2 /* Reachability.m in Sources */,
 				101F96311D342F8C0036A28E /* main.m in Sources */,
+				1050D5551D37C812009B86A2 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +541,19 @@
 		};
 		101F965D1D342F8D0036A28E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8D3341FAB96AACDAE04533 /* Pods-HW7sbadrina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW7sbadrina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleAPIClient\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.HW7sbadrina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,10 +561,13 @@
 		};
 		101F965E1D342F8D0036A28E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E41ECAC3888AC132EC954DB /* Pods-HW7sbadrina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW7sbadrina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.HW7sbadrina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -513,6 +638,7 @@
 				101F965E1D342F8D0036A28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101F965F1D342F8D0036A28E /* Build configuration list for PBXNativeTarget "HW7sbadrinaTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +647,7 @@
 				101F96611D342F8D0036A28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101F96621D342F8D0036A28E /* Build configuration list for PBXNativeTarget "HW7sbadrinaUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +656,7 @@
 				101F96641D342F8D0036A28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
